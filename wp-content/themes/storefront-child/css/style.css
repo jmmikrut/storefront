@@ -9,7 +9,7 @@ Version: 1.0.0.1571413340
 Updated: 2019-10-18 08:42:20
 
 */
-@import "normalize.css";
+
 @import "base/_global";
 @import "modules/_header";
 
