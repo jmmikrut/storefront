@@ -73,19 +73,18 @@ CSS from Storefront style.css
 */
 .site-header {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 1fr;
 }
 .site-branding {
 	display: grid;
-	grid-template-rows: 50px 20px;
+	grid-template-rows: 2fr 1fr;
 }
 .site-branding .site-title {
-		display: grid;
-		grid-template-columns: 1fr;
+			text-align: center;
 	}
 .site-branding .site-title a {
 			text-decoration: none;
-			margin: auto;
+			
 		}
 .site-description {
 		background-color: red;
@@ -97,6 +96,75 @@ CSS from Storefront style.css
     /*margin-right: auto;*/
     padding: 0 2.617924em;
 }
+/* line 1146 original css*/
+.main-navigation div.menu {
+  display: none; }
+/*This if for mobile first design
+* lines 1384 to 1421 in orginal css */
+button.menu-toggle {
+  cursor: pointer;
+  text-align: left;
+  float: right;
+  position: relative;
+  border: 2px solid transparent;
+  box-shadow: none;
+  border-radius: 2px;
+  background-image: none;
+  padding: 0.6180469716em 0.875em 0.6180469716em 2.617924em;
+  font-size: 0.875em;
+  max-width: 120px; }
+button.menu-toggle:hover {
+    background-image: none; }
+button.menu-toggle span::before {
+    transition: all, ease, 0.2s; }
+button.menu-toggle::before, button.menu-toggle::after,
+  button.menu-toggle span::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    margin-top: -1px;
+    transition: all, ease, 0.2s;
+    border-radius: 3px; }
+button.menu-toggle::before {
+    transform: translateY(-4px); }
+button.menu-toggle::after {
+    transform: translateY(4px); }
+/*Line 2029 in original css*/
+.menu-toggle {
+  display: none;
+}
+/*Lines 1494 to 1510 original css*/
+/*.main-navigation ul {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 0; }
+  Currently not used in header but may be used elsewhere
+  .main-navigation ul ul {
+    display: block;
+    margin-left: 1.41575em; }
+  .main-navigation ul li a {
+    padding: 0.875em 0;
+    text-decoration: none;
+    display: block; 
+  }
+    .main-navigation ul li a:hover {
+      color: #e6e6e6; }*/
+/*pared down css from lines above*/
+.main-navigation ul {
+    list-style: none;
+  }
+.main-navigation ul li a {
+        display: block;
+        padding: 0.875em 0;
+        text-decoration: none;
+      }
+.main-navigation ul li a:hover {
+        color: #e6e6e6;
+      }
 
 
 

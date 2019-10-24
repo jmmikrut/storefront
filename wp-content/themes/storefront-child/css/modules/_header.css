@@ -18,18 +18,17 @@ CSS from Storefront style.css
 */
 .site-header {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 1fr;
 }
 
 .site-branding {
 	display: grid;
-	grid-template-rows: 50px 20px;
+	grid-template-rows: 2fr 1fr;
 	.site-title {
-		display: grid;
-		grid-template-columns: 1fr;
+			text-align: center;
 		a {
 			text-decoration: none;
-			margin: auto;
+			
 		}
 	}
 }

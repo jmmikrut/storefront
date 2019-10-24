@@ -1,0 +1,50 @@
+
+/* line 1146 original css*/
+.main-navigation div.menu {
+  display: none; }
+
+/*This if for mobile first design
+* lines 1384 to 1421 in orginal css */
+button.menu-toggle {
+  cursor: pointer;
+  text-align: left;
+  float: right;
+  position: relative;
+  border: 2px solid transparent;
+  box-shadow: none;
+  border-radius: 2px;
+  background-image: none;
+  padding: 0.6180469716em 0.875em 0.6180469716em 2.617924em;
+  font-size: 0.875em;
+  max-width: 120px; }
+  button.menu-toggle:hover {
+    background-image: none; }
+  button.menu-toggle span::before {
+    -webkit-transition: all, ease, 0.2s;
+    transition: all, ease, 0.2s; }
+  button.menu-toggle::before, button.menu-toggle::after,
+  button.menu-toggle span::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    margin-top: -1px;
+    -webkit-transition: all, ease, 0.2s;
+    transition: all, ease, 0.2s;
+    border-radius: 3px; }
+  button.menu-toggle::before {
+    -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+            transform: translateY(-4px); }
+  button.menu-toggle::after {
+    -webkit-transform: translateY(4px);
+        -ms-transform: translateY(4px);
+            transform: translateY(4px); }
+
+/*Line 2029 in original css*/
+.menu-toggle {
+  display: none;
+}

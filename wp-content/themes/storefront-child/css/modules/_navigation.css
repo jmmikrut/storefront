@@ -1,0 +1,34 @@
+
+/*Lines 1494 to 1510 original css*/
+/*.main-navigation ul {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 0; }
+  Currently not used in header but may be used elsewhere
+  .main-navigation ul ul {
+    display: block;
+    margin-left: 1.41575em; }
+  .main-navigation ul li a {
+    padding: 0.875em 0;
+    text-decoration: none;
+    display: block; 
+  }
+    .main-navigation ul li a:hover {
+      color: #e6e6e6; }*/
+
+/*pared down css from lines above*/
+.main-navigation {
+  ul {
+    list-style: none;
+    li {
+      a {
+        display: block;
+        padding: 0.875em 0;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #e6e6e6;
+      }
+    }
+  }
+}
