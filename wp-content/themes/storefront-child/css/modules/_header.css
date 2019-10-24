@@ -1,3 +1,40 @@
-h1 {
-	color: white;
+/*
+CSS from Storefront style.css
+.site-branding {
+  float: left;
+  margin-bottom: 0;
+  width: calc( 100% - 120px); }
+  .site-branding .site-title {
+    font-size: 2em;
+    letter-spacing: -1px;
+    margin: 0; }
+    .site-branding .site-title a {
+      font-weight: 700; }
+  .site-branding .site-description {
+    font-size: 0.875em;
+    display: none; }
+  .site-branding .logo {
+    margin: 0; }
+*/
+.site-header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.site-branding {
+	display: grid;
+	grid-template-rows: 50px 20px;
+	.site-title {
+		display: grid;
+		grid-template-columns: 1fr;
+		a {
+			text-decoration: none;
+			margin: auto;
+		}
+	}
+}
+
+.site-description {
+		background-color: red;
+		margin: auto;
 }

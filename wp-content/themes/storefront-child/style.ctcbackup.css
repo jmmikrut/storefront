@@ -9,12 +9,27 @@ Version: 1.0.0.1571413340
 Updated: 2019-10-18 08:42:20
 
 */
-@import "base/_variables";
-@import "base/_global";
-@import "base/_mixins";
-@import "base/_screen-reader";
-@import "modules/_header";
-@import "modules/_columns";
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    /* ADD BOX SIZING TO ALL ELEMENTS USING BEST PRACTICES*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+    margin: 0;
+    color: green;
+    background-color: orange;
+}
+
+h1 {
+	color: white;
+}
 
 
 
