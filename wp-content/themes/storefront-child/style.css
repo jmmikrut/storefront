@@ -73,7 +73,8 @@ CSS from Storefront style.css
 */
 .site-header {
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 50px, 50px, 50px;
 }
 .site-branding {
 	display: grid;
